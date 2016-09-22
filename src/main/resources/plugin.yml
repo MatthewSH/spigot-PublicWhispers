@@ -1,0 +1,11 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+main: ${mainClass}
+depend: ${dependencies}
+permissions:
+  publicwhispers.publicize:
+    description: Makes the users whispers public.
+    default: true
