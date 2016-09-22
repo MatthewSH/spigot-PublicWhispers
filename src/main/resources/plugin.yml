@@ -5,6 +5,15 @@ author: ${author}
 website: ${url}
 main: ${mainClass}
 depend: ${dependencies}
+commands:
+  tell:
+    aliases:
+      - msg
+      - message
+      - pm
+      - whisper
+      - w
+    description: Whisper command.
 permissions:
   publicwhispers.publicize:
     description: Makes the users whispers public.
