@@ -2,7 +2,6 @@ package com.matthewhatcher.publicwhispers;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.matthewhatcher.publicwhispers.Listeners.WhisperListener;
 import com.matthewhatcher.publicwhispers.Commands.WhisperCommands;
 
 public class PublicWhispers extends JavaPlugin
