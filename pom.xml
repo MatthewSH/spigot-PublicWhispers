@@ -107,6 +107,6 @@
 	
     <groupId>com.matthewhatcher</groupId>
     <artifactId>PublicWhispers</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-beta</version>
     <description>Make whispers public to everyone.</description>
 </project>
