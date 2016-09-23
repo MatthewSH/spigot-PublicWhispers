@@ -40,8 +40,10 @@ public class WhisperCommands implements CommandExecutor
 				String message = "§7" + ((Player) sender).getDisplayName() + " -> " + target.getDisplayName() + "§f: ";
 				
 				for(int i = 1; i < args.length; i++) {
-					message += args[i];
+					message += (args[i] + " ");
 				}
+				
+				message.trim();
 				
 				if(!sender.hasPermission("publicwhispers.publicize")) {
 					target.sendMessage(message);
